@@ -394,3 +394,8 @@ nav ul li a:hover {
   font-size: 14px;
 }
 
+#pizzas{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
