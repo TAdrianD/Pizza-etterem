@@ -3,168 +3,148 @@
 <head>
   <meta charset="UTF-8">
   <title>Adrián Pizzázója</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 <body>
-	<header>
-	  <div class="logo">
-		<img src="pizzalogo.png" alt="Logó">
-	  </div>
-	  <nav>
-		<ul>
-		  <li><a href="#home">Kezdőlap</a></li>
-		  <li><a href="#about">Rólunk</a></li>
-		  <li><a href="#menu">Menü</a></li>
-		  <li><a href="#reservations">Asztalfoglalás</a></li>
-		  <li><a href="#contact">Kapcsolat</a></li>
-		</ul>
-	  </nav>
-	</header>
-
-<section class="hero">
-  <div class="hero-content">
-    <h1>Üdvözöljük Adrián Pizzázójában</h1>
-    <p>Kóstolja meg az Igazi Olasz Ízeket</p>
-    <a href="#menu" class="btn">Ismerje meg a Menünket</a>
-  </div>
-</section>
-
-<section class="about dark-theme">
-  <div class="about-content">
-    <h2>Rólunk</h2>
-    <p>Élvezze a legfinomabb pizzákat egy hangulatos és rusztikus környezetben. Az Adrián Pizzázója elkötelezett a kiváló ízek iránt, amelyek garantáltan elkápráztatják az ízlelőbimbóit.</p>
-    <p>Szakácsaink aprólékosan készítik el a pizzákat helyi beszerzésű alapanyagokból és egyedi ízkombinációkból. A szaftos húspogácsáktól a ízletes vegetáriánus opciókig mindenki számára találunk valamit.</p>
-    <a href="#menu" class="btn">Ismerje meg a Menünket</a>
-  </div>
-  <div class="about-image">
-    <img src="pizza1.jpg" alt="Rólunk Kép">
-  </div>
-</section>
-
-
-<section class="menu">
-  <h2>A Menünk</h2>
-  <div class="menu-items" id="pizzas">
-    <div class="menu-item">
-      <img src="pizza2.jpg" alt="Pizza 1">
-      <h3>Klasszikus Margaréta</h3>
-      <p>Egy sajtos pizza friss paradicsommal és bazsalikommal. Az olasz konyha klasszikus ízeivel.</p>
+  <header>
+    <div class="logo">
+      <img src="pizzalogo.png" alt="Logó">
     </div>
-    <div class="menu-item">
-      <img src="pizza3.jpg" alt="Pizza 2">
-      <h3>Húsimádó</h3>
-      <p>A húsimádók paradicsomos szószra, sonkára, szalámira, és kolbászra vágynak.</p>
-    </div>
-    <div class="menu-item">
-      <img src="pizza4.jpg" alt="Pizza 3">
-      <h3>Vegán Specialitás</h3>
-      <p>Egy csodálatos vegán pizza, friss zöldségekkel és ízesítőkkel, amely mindenkit lenyűgöz.</p>
-    </div>
-  </div>
-</section>
-
-<section class="reservations">
-  <div class="reservation-form">
-    <h2>Asztalfoglalás</h2>
-    <form>
-      <input type="text" name="name" placeholder="Az Ön Neve" required>
-      <input type="email" name="email" placeholder="Az Ön Email Címe" required>
-      <input type="tel" name="phone" placeholder="Telefonszám" required>
-      <input type="date" name="date" required>
-      <input type="time" name="time" required>
-      <textarea name="message" placeholder="Egyéb Üzenet" rows="5"></textarea>
-      <button type="submit">Küldés</button>
-    </form>
-  </div>
-</section>
-
-
-<section class="testimonials">
-  <h2>Mit Mondanak a Vendégeink</h2>
-  <div class="testimonial">
-    <img src="customer1.jpg" alt="Vendég 1">
-    <p>"Az Adrián Pizzázója pizzái egyszerűen fantasztikusak! Az ízek gazdagok, és az összetevők mindig frissek. Ez az első számú helyem, ha egy ízletes ételre vágyom."</p>
-    <h4>János Péter</h4>
-  </div>
-  <div class="testimonial">
-    <img src="customer2.jpg" alt="Vendég 2">
-    <p>"Az Adrián Pizzázója sosem okoz csalódást! Az ottani hamburger minősége és a barátságos kiszolgálás egyedülálló étteremélménnyé teszi. Minden hamburger kedvelőnek nagyon ajánlom!"</p>
-    <h4>Mária Kovács</h4>
-  </div>
-</section>
-
-
-<section class="gallery">
-  <h2>Galéria</h2>
-  <div class="image-grid">
-    <div class="image-item">
-      <img src="gallery1.jpg" alt="Kép 1">
-    </div>
-    <div class="image-item">
-      <img src="gallery2.jpg" alt="Kép 2">
-    </div>
-    <div class="image-item">
-      <img src="gallery3.jpg" alt="Kép 3">
-    </div>
-    <div class="image-item">
-      <img src="gallery4.jpg" alt="Kép 4">
-    </div>
-  </div>
-</section>
-
-<section class="contact">
-  <div class="contact-container">
-    <h2>Kapcsolat</h2>
-    <div class="contact-info">
-      <div class="info-item">
-        <i class="fas fa-map-marker-alt"></i>
-        <p>123 Fő utca, Város, Ország</p>
-      </div>
-
-      <div class="info-item">
-        <i class="fas fa-phone-alt"></i>
-        <p>+1 234 567 890</p>
-      </div>
-      <div class="info-item">
-        <i class="fas fa-envelope"></i>
-        <p>info@bergerhut.com</p>
-      </div>
-    </div>
-    <form class="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-</section>
-
-
-
-
-<footer class="footer">
-  <div class="footer-content">
-    <div class="footer-logo">
-      <img src="pizzalogo.png" alt="Logo">
-    </div>
-    <nav class="footer-links">
-      <a href="#">Kezdőlap</a>
-      <a href="#">Rólunk</a>
-      <a href="#">Menü</a>
-      <a href="#">Asztalfoglalás</a>
-      <a href="#">Galéria</a>
-      <a href="#">Kapcsolat</a>
+    <nav>
+      <ul>
+        <li><a href="#kezdolap">Kezdőlap</a></li>
+        <li><a href="#rolunk">Rólunk</a></li>
+        <li><a href="#menu">Menü</a></li>
+        <li><a href="#asztalfoglalas">Asztalfoglalás</a></li>
+        <li><a href="#galeria">Galéria</a></li>
+        <li><a href="#kapcsolat">Kapcsolat</a></li>
+      </ul>
     </nav>
-    <div class="footer-social">
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-    </div>
-  </div>
-  <p class="footer-text">&copy; 2024 Adrián Pizzázója. Minden jog fenntartva.</p>
-</footer>
+  </header>
 
-<script src="script.js"></script>
+  <section id="kezdolap" class="hero">
+    <div class="hero-content">
+      <h1>Üdvözöljük Adrián Pizzázójában</h1>
+      <p>Kóstolja meg az Igazi Olasz Ízeket</p>
+      <a href="#menu" class="btn">Ismerje meg a Menünket</a>
+    </div>
+  </section>
+
+  <section id="rolunk" class="about dark-theme">
+    <div class="about-content">
+      <h2>Rólunk</h2>
+      <p>Élvezze a legfinomabb pizzákat egy hangulatos és rusztikus környezetben. Az Adrián Pizzázója elkötelezett a kiváló ízek iránt, amelyek garantáltan elkápráztatják az ízlelőbimbóit.</p>
+      <p>Szakácsaink aprólékosan készítik el a pizzákat helyi beszerzésű alapanyagokból és egyedi ízkombinációkból. A szaftos húspogácsáktól a ízletes vegetáriánus opciókig mindenki számára találunk valamit.</p>
+      <a href="#menu" class="btn">Ismerje meg a Menünket</a>
+    </div>
+    <div class="about-image">
+      <img src="pizza1.jpg" alt="Rólunk Kép">
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>A Menünk</h2>
+    <div class="menu-items" id="pizzas">
+      <div class="menu-item">
+        <img src="pizza2.jpg" alt="Pizza 1">
+        <h3>Klasszikus Margaréta</h3>
+        <p>Egy sajtos pizza friss paradicsommal és bazsalikommal. Az olasz konyha klasszikus ízeivel.</p>
+      </div>
+      <div class="menu-item">
+        <img src="pizza3.jpg" alt="Pizza 2">
+        <h3>Húsimádó</h3>
+        <p>A húsimádók paradicsomos szószra, sonkára, szalámira, és kolbászra vágynak.</p>
+      </div>
+      <div class="menu-item">
+        <img src="pizza4.jpg" alt="Pizza 3">
+        <h3>Vegán Specialitás</h3>
+        <p>Egy csodálatos vegán pizza, friss zöldségekkel és ízesítőkkel, amely mindenkit lenyűgöz.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="asztalfoglalas" class="reservations">
+    <div class="reservation-form">
+      <h2>Asztalfoglalás</h2>
+      <form>
+        <input type="text" name="name" placeholder="Az Ön Neve" required>
+        <input type="email" name="email" placeholder="Az Ön Email Címe" required>
+        <input type="tel" name="phone" placeholder="Telefonszám" required>
+        <input type="date" name="date" required>
+        <input type="time" name="time" required>
+        <textarea name="message" placeholder="Egyéb Üzenet" rows="5"></textarea>
+        <button type="submit">Küldés</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="galeria" class="gallery">
+    <h2>Galéria</h2>
+    <div class="image-grid">
+      <div class="image-item">
+        <img src="gallery1.jpg" alt="Kép 1">
+      </div>
+      <div class="image-item">
+        <img src="gallery2.jpg" alt="Kép 2">
+      </div>
+      <div class="image-item">
+        <img src="gallery3.jpg" alt="Kép 3">
+      </div>
+      <div class="image-item">
+        <img src="gallery4.jpg" alt="Kép 4">
+      </div>
+    </div>
+  </section>
+
+  <section id="kapcsolat" class="contact">
+    <div class="contact-container">
+      <h2>Kapcsolat</h2>
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Magyarország, Miskolc, Soltész Nagy Kálmán u. 10, 3530</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-phone-alt"></i>
+          <p>+3670999999</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <p>info@adrianpizzazoja.com</p>
+        </div>
+      </div>
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Az Ön Neve" required>
+        <input type="email" name="email" placeholder="Az Ön Email Címe" required>
+        <textarea name="message" placeholder="Az Ön Üzenete" rows="5" required></textarea>
+        <button type="submit">Küldés</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="pizzalogo.png" alt="Logo">
+      </div>
+      <nav class="footer-links">
+        <a href="#kezdolap">Kezdőlap</a>
+        <a href="#rolunk">Rólunk</a>
+        <a href="#menu">Menü</a>
+        <a href="#asztalfoglalas">Asztalfoglalás</a>
+        <a href="#galeria">Galéria</a>
+        <a href="#kapcsolat">Kapcsolat</a>
+      </nav>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <p class="footer-text">&copy; 2024 Adrián Pizzázója. Minden jog fenntartva.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
