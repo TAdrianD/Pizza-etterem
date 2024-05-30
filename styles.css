@@ -293,7 +293,6 @@ nav ul li a:hover {
 }
 
 
-/* Contact Section*/
 
 .contact {
   background-color: #333;
@@ -357,9 +356,6 @@ nav ul li a:hover {
   background-color: #e60000;
 }
 
-
-/* Footer*/
-
 .footer {
   background-color: #070e16;
   padding: 40px 0;
@@ -386,7 +382,7 @@ nav ul li a:hover {
 
 .footer-social a {
   color: #fff;
-  margin: 0 5px;
+  margin: 5px 5px;
   text-decoration: none;
 }
 
